@@ -1,6 +1,4 @@
-# My Portfolio :smiley:
-
-#Yash Prajapati
+#Yash Prajapati 🖥️
 Currently, I am a **student**, a **Software Developer Intern**, and a **content creator**.
 
 I'm Full Stack Developer, with extensive knowledge and experience, working in Web Technologies and UI/UX Design, delivering quality work.
