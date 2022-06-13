@@ -141,6 +141,7 @@ img{
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
     padding: 2rem 0 4rem;
+    
 }
 
 .section__title{
@@ -745,7 +746,7 @@ img{
 }
 
 .portfolio__img{
-    width: 265px;
+    width: 90% !important; 
     border-radius: .5rem;
     justify-self: center;
 }
@@ -820,8 +821,9 @@ img{
 }
 
 .project__img{
-    width: 232px;
+    width: 200px !important;
     justify-self: center;
+    margin-bottom: 30px;
 }
 
 /*==================== TESTIMONIAL ====================*/
@@ -1128,10 +1130,11 @@ img{
         column-gap: 5rem;
     }
     .about__img{
-        width: 350px;
+        width: 100%;
     }
     .about__description{
         text-align: initial;
+        text-align: justify;
     }
     .about__info{
         justify-content: space-between;
