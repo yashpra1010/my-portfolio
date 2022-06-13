@@ -104,6 +104,7 @@ body.dark-theme{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    cursor: none;
 }
 
 html{
@@ -1248,3 +1249,40 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/*============================================*/
+.cursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+  }
+  
+  .cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #000000;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .13s;
+  }
+  
+  .content:hover ~ .cursor{
+    transform: translate(-50%, -50%) scale(1.5);
+    background-color: #000000;
+    opacity: .5;
+  }
+  
+  .content:hover ~ .cursor2{
+    opacity: 0;
+  }
