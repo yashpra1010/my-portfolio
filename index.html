@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
+    <!--==================== AOS LIBRARY ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--==================== GOOGLE FONTS ====================-->
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Oswald&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Oswald&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
     </style>
 
     <!--==================== FAVICON ====================-->
@@ -82,7 +85,7 @@
     <!--==================== MAIN ====================-->
     <main class="main">
         <!--==================== HOME ====================-->
-        <section class="home section" id="home">
+        <section class="home section" id="home" data-aos="fade-in">
             <div class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
@@ -97,7 +100,7 @@
                         </a>
                     </div>
 
-                    <div class="home__img">
+                    <div class="home__img" data-aos="slide-left" >
                         <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <mask id="mask0" mask-type="alpha">
@@ -117,7 +120,9 @@
                         </svg>
                     </div>
                     <div class="home__data">
-                        <h1 class="home__title" style="font-family: Lobster; letter-spacing: 3px;">Hi, I'm </h1><h1 class="home__title" style="font-family: 'Courier Prime', monospace; font-size: 60px;">Yash Prajapati</h1>
+                        <h1 class="home__title" style="font-family: Lobster; letter-spacing: 3px;">Hi, I'm </h1>
+                        <h1 class="home__title" style="font-family: 'Courier Prime', monospace; font-size: 60px;">Yash
+                            Prajapati</h1>
                         <h3 class="home__subtitle">
                             <ul style="list-style-type: disc; margin-left: 10% ;">
                                 <li>Full-Stack Developer</li>
@@ -145,7 +150,7 @@
             </div>
         </section>
         <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
+        <section class="about section" id="about" data-aos="slide-up">
             <h2 class="section__title">About Me</h2>
             <span class="section__subtitle">My introduction</span>
 
@@ -154,11 +159,13 @@
 
                 <div class="about__data">
                     <p class="about__description" style="font-family: 'Courier Prime', monospace;">
-                        Currently, I am a <b>student</b>, a <b>Software Developer Intern</b>, and a <b>content creator</b>.<br><br>
+                        Currently, I am a <b>student</b>, a <b>Software Developer Intern</b>, and a <b>content
+                            creator</b>.<br><br>
                         I'm Full Stack Developer, with extensive knowledge and
                         experience, working in Web Technologies and UI/UX Design,
                         delivering quality work.<br><br>
-                        Also have extensive working knowledge of <b>Adobe Premiere Pro</b> & <b>Adobe Photoshop</b> and experience over 6+ years.
+                        Also have extensive working knowledge of <b>Adobe Premiere Pro</b> & <b>Adobe Photoshop</b> and
+                        experience over 6+ years.
                     </p>
 
                     <div class="about__info">
@@ -193,7 +200,7 @@
         </section>
 
         <!--==================== SKILLS ====================-->
-        <section class="skills section" id="skills">
+        <section class="skills section" id="skills" data-aos="slide-left">
             <h2 class="section__title">Skills</h2>
             <span class="section__subtitle">My Technical Level</span>
 
@@ -342,7 +349,7 @@
         </section>
 
         <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section">
+        <section class="qualification section" data-aos="slide-left">
             <h2 class="section__title">Qualifications</h2>
             <div class="section__subtitle">My personal journey</div>
 
@@ -443,7 +450,7 @@
         </section>
 
         <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
+        <section class="services section" id="services" data-aos="slide-up">
             <h2 class="section__title">Services</h2>
             <span class="section__subtitle">What I offer</span>
 
@@ -575,7 +582,7 @@
         </section>
 
         <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
+        <section class="portfolio section" id="portfolio"  data-aos="slide-left">
             <h2 class="section__title">Portfolio</h2>
             <span class="section__subtitle">Most Recent Work</span>
 
@@ -600,7 +607,7 @@
                     </div>
 
                     <!--======================== PORTFOLIO 2 =============-->
-                    <div class="portfolio__content grid swiper-slide">
+                    <div class="portfolio__content grid swiper-slide" >
                         <img src="assets/img/portfolio2.gif" alt="" class="portfolio__img" />
 
                         <div class="portfolio__data">
@@ -649,7 +656,7 @@
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
+        <section class="project section"   data-aos="ease-in-out">
             <div class="project__bg">
                 <div class="project__container container grid">
 
@@ -670,7 +677,7 @@
         </section>
 
         <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
+        <section class="contact section" id="contact" data-aos="zoom-in">
             <h2 class="section__title">Contact Me 📧</h2>
             <span class="section__subtitle">Get in touch</span>
 
@@ -753,6 +760,16 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
+
+    <!--==================== AOS SCRIPT ====================-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:120,
+            duration:1500,
+            easing: 'ease-in-out-back',
+        });
+    </script>
 </body>
 
 </html>
