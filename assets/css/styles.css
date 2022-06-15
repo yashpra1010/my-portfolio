@@ -92,7 +92,6 @@ body.dark-theme{
     font-size: 1.25rem;
     color: var(--title-color);
     margin-right: var(--mb-1);
-    cursor: pointer;
 }
 
 .change-theme:hover{
@@ -202,7 +201,6 @@ img{
 
 .nav__toggle{
     font-size: 1.1rem;
-    cursor: pointer;
 }
 
 .nav__toggle:hover{
@@ -250,7 +248,6 @@ img{
     right: 1.3rem;
     bottom: .5rem;
     font-size: 1.5rem;
-    cursor: pointer;
     color: var(--first-color);
 }
 
@@ -324,10 +321,6 @@ img{
 
 .home__description{
     margin-bottom: var(--mb-2);
-}
-
-.home__scroll{
-    /*display: none;*/
 }
 
 .home__scroll-button{
@@ -451,7 +444,6 @@ img{
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-2-5);
-    cursor: pointer;
 }
 
 .skills__icon,
@@ -573,7 +565,6 @@ img{
 .qualification__button{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    cursor: pointer;
 }
 
 .qualification__button:hover{
@@ -672,7 +663,6 @@ img{
 }
 
 .services__button{
-    cursor: pointer;
     font-size: var(--small-font-size);
 }
 
@@ -724,7 +714,6 @@ img{
     right: 1rem;
     font-size: 1.5rem;
     color: var(--first-color);
-    cursor: pointer;
 }
 .services__modal-icon{
     color: var(--first-color);
@@ -972,18 +961,23 @@ img{
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px){
+
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-
+    .home__title{
+        font-size: 1.5rem !important;
+    }
+    .home__subtitle{
+        font-size: 1rem !important;
+    }
     .nav__menu{
         padding: 2rem .25rem 4rem;
     }
     .nav__list{
         column-gap: 0;
     }
-
     .home__content{
         grid-template-columns: .25fr 3fr;
 
@@ -1045,7 +1039,7 @@ img{
         order: 1;
         justify-self: center;
     }
-
+    
     .about__container,
     .portfolio__content,
     .project__container,
@@ -1068,6 +1062,7 @@ img{
         margin-right: auto;
     }
 
+    
     body{
         margin: 0;
     }
@@ -1117,6 +1112,7 @@ img{
         padding-top: 5.5rem;
         column-gap: 2rem;
     }
+    
     .home__blob{
         width: 270px;
     }
